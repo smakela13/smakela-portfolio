@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #ece1cb;
+}
+
+header {
+    padding: 20px;
+    font-family: 'Merienda', cursive;
+    background-color: #ED960B;
+    color: #1B0C04;
+    font-weight: bolder;
+}
+
+header h1 {
+    display: inline-block;
+    font-size: 60px;
+}
+
+header nav {
+    padding-top: 15px;
+    margin-right: 50px;
+    float: right;
+    font-family: 'Montserrat Alternates', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li::after {
+    content: "\01F98A"; /* fox emoji */
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+a {
+    color: #C46500;
+    text-decoration: underline solid #C46500 7px;
+}
+
+p {
+    font-size: 18px;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-bottom: 15px;
+    line-height: 150%;
+}
+
+.head-image {
+    height: 230px;
+    width: 100%;
+    margin-bottom: 5px;
+    background-image: url("../images/black-header.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.content {
+    width: 80%;
+    display: inline-block;
+    padding-right: 5px;
+}
+
+.main-content article {
+    margin-bottom: 5px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Montserrat Alternates', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #ED960B;
+    color: #1B0C04;
+}
+
+.main-content img {
+    max-height: 200px;
+}
+
+.main-content h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+.contact {
+    margin-right: 0px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Montserrat Alternates', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #ED960B;
+}
+
+.contact-sidebar article {
+    margin-bottom: 32px;
+    color: #ece1cb;
+}
+
+.contact-sidebar h2 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.contact-sidebar img {
+    display: block;
+    border-radius: 15px;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Montserrat Alternates', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    color: #C46500;
+}
+
+footer h2 {
+    font-size: 20px;
+}
