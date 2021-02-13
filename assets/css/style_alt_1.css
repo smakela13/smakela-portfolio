@@ -41,7 +41,7 @@ header h1 {
 header nav {
     padding-top: 15px;
     font-family: 'Montserrat', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 30px;
+    font-size: 35px;
     justify-content: flex-end;
 }
 
@@ -72,9 +72,55 @@ p {
 }
 
 main {
-    display: flex;
     flex-wrap: wrap;
     padding-right: 5px;
+}
+
+.main-content article {
+    width: 80%;
+    margin-bottom: 5px;
+    padding: 20px;
+    font-family: 'Montserrat', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #F4EFC9;
+    color: #1b1c21;
+    box-shadow: 5px 5px 5px #1b1c21;
+    border-radius: 10px;
+    flex: 1;    
+}
+
+.main-content img {
+    width: 100%;
+    min-width: 400px;
+    border-radius: 10px;
+}
+
+.main-content h2 {
+    margin-bottom: 20px;
+    margin-right: 20px;
+    font-size: 36px;
+}
+
+.main-content section {
+    display: inline-block;
+}
+
+.main-content section a {
+    color: #1b1c21;
+}
+
+.container {
+    position: relative;
+    display: inline-block;
+}
+
+.text-block {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: #874f3e;
+    color: black;
+    font-weight: bold;
+    padding: 20px;
 }
 
 aside {
@@ -88,43 +134,18 @@ aside {
     box-shadow: 5px 5px 5px #1b1c21;
 }
 
-.contact-sidebar h2 {
+aside h2 {
+    width: 20%;
     margin-bottom: 10px;
     text-align: center;
     color: #1b1c21;
 }
 
-.contact-sidebar img {
+aside img {
     display: inline-flex;
     border-radius: 15px;
     margin: 10px auto;
     max-width: 150px;
-}
-
-.contact-sidebar a img {
-    text-decoration: none;
-}
-
-.main-content article {
-    width: 80%;
-    margin-bottom: 5px;
-    padding: 20px;
-    font-family: 'Montserrat', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #F4EFC9;
-    color: #1b1c21;
-    box-shadow: 5px 5px 5px #1b1c21;
-    border-radius: 10px;
-}
-
-.main-content img {
-    max-height: 400px;
-    border-radius: 10px;
-}
-
-.main-content h2 {
-    margin-bottom: 20px;
-    margin-right: 20px;
-    font-size: 36px;
 }
 
 footer {
@@ -144,9 +165,8 @@ footer h2 {
   header {
     background: yellowgreen;
   }
-  .main-content {
-    width: 100%;
-    height: auto;
+  body {
+      flex-direction: column;
   }
 }
 
