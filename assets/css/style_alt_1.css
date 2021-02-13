@@ -2,41 +2,54 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    border: solid #5B6DCD 2px;
+}
+
+:root {
+    --middleGrey: #887a6f;
+    --quickSilver: #9DA5A8;
+    --champagne: #F4EFC9;
+    --chestnut: #874F3E;
+    --raisinBlack: #1B1C21;
 }
 
 body {
-    background-color: #887a6f;
+    background-color: var(--middleGrey);
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     min-height: min-content;
 }
 
-.head-image {
-    height: 300px;
-    width: 100%;
-    background-image: url("../images/pexels-evie-shaffer-4004374.jpg");
-    background-size: cover;
-    background-position: center;
+h1 {
+    font-size: 60px;
+    margin-left: 50px;
+    font-family: 'Merienda', cursive;
+    color: var(--champagne);
+}
+
+h2 {
+    margin-bottom: 15px;
+    margin-right: 20px;
+    font-size: 36px;
+    font-family: 'Montserrat', Calibri, 'Trebuchet MS', sans-serif;
+    color: var(--raisinBlack);
+}
+
+p {
+    font-size: 18px;
+    font-family: 'Roboto', 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-bottom: 15px;
+    line-height: 150%;
 }
 
 header {
     padding: 20px;
-    background-color: #1b1c21;
-    background-image: linear-gradient(315deg, #494949 10%, #1b1c21 54%);
+    background-color: var(--raisinBlack);
+    background-image: linear-gradient(315deg, #494949 10%, var(--raisinBlack) 54%);
     margin-bottom: 5px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-}
-
-header h1 {
-    font-size: 60px;
-    margin-left: 50px;
-    font-family: 'Merienda', cursive;
-    color: #F4EFC9;
-    font-weight: bolder;
 }
 
 header nav {
@@ -56,58 +69,55 @@ header nav ul li {
 }
 
 header nav ul li a {
-    color: #F4EFC9;
-    text-decoration: underline solid #874f3e;
+    color: var(--champagne);
+    text-decoration: underline solid var(--chestnut);
     text-decoration-thickness: 7px;
 }
 
-a {
-    color: #F4EFC9;
+footer {
+    margin-top: 10px;
+    text-align: center;
+    width: 100%;
+    bottom: 0;
 }
 
-p {
-    font-size: 18px;
-    font-family: 'Roboto', 'Open Sans', 'Helvetica Neue', sans-serif;
-    margin-bottom: 15px;
-    line-height: 150%;
-}
+ footer h2 {
+    font-size: 20px;
+ }
 
-main {
-    flex-wrap: wrap;
-    padding-right: 5px;
+ .head-image {
+    height: 300px;
+    width: 100%;
+    background-image: url("../images/pexels-evie-shaffer-4004374.jpg");
+    background-size: cover;
+    background-position: center;
 }
 
 .main-content article {
-    width: 80%;
+    width: 85%;
     margin-bottom: 5px;
     padding: 20px;
-    font-family: 'Montserrat', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #F4EFC9;
-    color: #1b1c21;
-    box-shadow: 5px 5px 5px #1b1c21;
+    background-color: var(--champagne);
+    box-shadow: 5px 5px 5px var(--raisinBlack);
     border-radius: 10px;
     flex: 1;    
 }
 
 .main-content img {
-    flex: 1 0 200px;
-    max-width: 400px;
-    min-width: 400px;
+    max-width: 100%;
+    max-height: auto;
     border-radius: 10px;
 }
 
-.main-content h2 {
-    margin-bottom: 20px;
-    margin-right: 20px;
-    font-size: 36px;
+.portfolio-img {
+    flex: 1 0 200px;
+    min-width: 400px;
+    max-width: 100%;
+    border-radius: 10px;
 }
 
 .main-content section {
     display: inline-block;
-}
-
-.main-content section a {
-    color: #1b1c21;
 }
 
 .container {
@@ -119,28 +129,20 @@ main {
     position: absolute;
     bottom: 20px;
     right: 20px;
-    background-color: #874f3e;
-    color: black;
+    background-color: var(--chestnut);
+    color: var(--raisinBlack);
     font-weight: bold;
     padding: 20px;
 }
 
-aside {
+.contact {
     flex: 1;
     margin-bottom: 5px;
     padding: 20px;
     width: 80%;
-    font-family: 'Montserrat', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #874f3e;
+    background-color: var(--chestnut);
     border-radius: 10px;
-    box-shadow: 5px 5px 5px #1b1c21;
-}
-
-aside h2 {
-    width: 20%;
-    margin-bottom: 10px;
-    text-align: center;
-    color: #1b1c21;
+    box-shadow: 5px 5px 5px var(--raisinBlack);
 }
 
 .contact-img {
@@ -150,20 +152,11 @@ aside h2 {
     width: 50px;
 }
 
-footer {
-    padding: 30px;
-    font-family: 'Montserrat Alternates', Calibri, 'Trebuchet MS', sans-serif;
-    text-align: center;
-    color: #050A0E;
-    width: 100%;
-    bottom: 0;
-}
-
-footer h2 {
-    font-size: 20px;
-}
-
 @media screen and (max-width: 992px) {
   body {
       flex-direction: column;
   }
+  .main-content img {
+      max-width: 95%;
+  }
+}
