@@ -55,7 +55,7 @@ header {
 header nav {
     padding-top: 15px;
     font-family: 'Montserrat', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 35px;
+    font-size: 30px;
     justify-content: flex-end;
 }
 
@@ -109,6 +109,20 @@ footer {
     max-height: auto;
     border-radius: 10px;
     border: 5px var(--chestnut) solid;
+}
+
+.about-container {
+    display: flex;
+}
+
+.about-img {
+    object-fit: contain;
+    align-self: flex-start;
+    margin: 0 15px 5px 0px;
+}
+
+.about-text {
+    flex: 1 1 auto;
 }
 
 .portfolio-grid {
