@@ -4,135 +4,160 @@
     margin: 0;
 }
 
+:root {
+    --middleGrey: #887a6f;
+    --quickSilver: #9DA5A8;
+    --champagne: #F4EFC9;
+    --chestnut: #874F3E;
+    --raisinBlack: #1B1C21;
+}
+
 body {
-    background-color: #ece1cb;
+    background-color: var(--middleGrey);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    min-height: min-content;
+}
+
+h1 {
+    font-size: 60px;
+    margin-left: 50px;
+    font-family: 'Merienda', cursive;
+    color: var(--champagne);
+}
+
+h2 {
+    margin-bottom: 15px;
+    margin-right: 20px;
+    font-size: 36px;
+    font-family: 'Montserrat', Calibri, 'Trebuchet MS', sans-serif;
+    color: var(--raisinBlack);
+}
+
+p {
+    font-size: 18px;
+    font-family: 'Roboto', 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-bottom: 15px;
+    line-height: 150%;
 }
 
 header {
     padding: 20px;
-    font-family: 'Merienda', cursive;
-    background-color: #ED960B;
-    color: #1B0C04;
-    font-weight: bolder;
-}
-
-header h1 {
-    display: inline-block;
-    font-size: 60px;
+    background-color: var(--raisinBlack);
+    background-image: linear-gradient(315deg, #494949 10%, var(--raisinBlack) 54%);
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 header nav {
     padding-top: 15px;
-    margin-right: 50px;
-    float: right;
-    font-family: 'Montserrat Alternates', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 30px;
+    font-family: 'Montserrat', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 35px;
+    justify-content: flex-end;
 }
 
 header nav ul {
     list-style-type: none;
 }
 
-header nav ul li::after {
-    content: "\01F98A"; /* fox emoji */
-}
-
 header nav ul li {
     display: inline-block;
-    margin-left: 25px;
+    margin-right: 50px;
 }
 
-a {
-    color: #C46500;
-    text-decoration: underline solid #C46500 7px;
+header nav ul li a {
+    color: var(--champagne);
+    text-decoration: underline solid var(--chestnut);
+    text-decoration-thickness: 7px;
 }
 
-p {
-    font-size: 18px;
-    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
-    margin-bottom: 15px;
-    line-height: 150%;
-}
-
-.head-image {
-    height: 230px;
+footer {
+    margin-top: 10px;
+    text-align: center;
     width: 100%;
-    margin-bottom: 5px;
-    background-image: url("../images/black-header.jpg");
+    bottom: 0;
+}
+
+ footer h2 {
+    font-size: 20px;
+ }
+
+ .head-image {
+    height: 300px;
+    width: 100%;
+    background-image: url("../images/pexels-evie-shaffer-4004374.jpg");
     background-size: cover;
     background-position: center;
 }
 
-.content {
-    width: 80%;
-    display: inline-block;
-    padding-right: 5px;
-}
-
 .main-content article {
+    width: 80%;
+    margin: auto;
     margin-bottom: 5px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Montserrat Alternates', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #ED960B;
-    color: #1B0C04;
+    padding: 10px;
+    background-color: var(--champagne);
+    box-shadow: 5px 5px 5px var(--raisinBlack);
+    border-radius: 10px;
+    flex: 1;    
 }
 
 .main-content img {
-    max-height: 200px;
+    max-width: 100%;
+    max-height: auto;
+    border-radius: 10px;
+    border: 3px var(--chestnut) solid;
 }
 
-.main-content h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
+.portfolio-grid {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1fr;
+    grid-auto-rows: minmax(100px, auto);
+    grid-gap: 10px;
+    padding: 10px;
+    align-items: center;
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
+.container {
+    position: relative;
+    display: inline-block;
 }
 
-.float-right {
-    float: right;
-    margin-left: 25px;
+.text-block {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: var(--chestnut);
+    color: var(--raisinBlack);
+    font-weight: bold;
+    padding: 20px;
 }
 
 .contact {
-    margin-right: 0px;
+    flex: 1;
+    margin-bottom: 5px;
     padding: 20px;
-    clear: both;
-    float: right;
-    width: 20%;
-    height: 100%;
-    font-family: 'Montserrat Alternates', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #ED960B;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px var(--raisinBlack);
 }
 
-.contact-sidebar article {
-    margin-bottom: 32px;
-    color: #ece1cb;
-}
-
-.contact-sidebar h2 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.contact-sidebar img {
-    display: block;
+.contact img {
+    display: inline-flex;
     border-radius: 15px;
-    margin: 10px auto;
-    max-width: 150px;
+    border: none;
+    margin: 10px;
+    width: 50px;
+    height: auto;
 }
 
-footer {
-    padding: 30px;
-    clear: both;
-    font-family: 'Montserrat Alternates', Calibri, 'Trebuchet MS', sans-serif;
-    text-align: center;
-    color: #C46500;
-}
-
-footer h2 {
-    font-size: 20px;
+@media screen and (max-width: 992px) {
+  body {
+      flex-direction: column;
+  }
+  .main-content img {
+      max-width: 95%;
+  }
 }
