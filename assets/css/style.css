@@ -1,3 +1,4 @@
+/* Page styles */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -42,6 +43,7 @@ p {
     line-height: 150%;
 }
 
+/* Header, header nav, header image */
 header {
     padding: 20px;
     background-color: var(--raisinBlack);
@@ -74,17 +76,6 @@ header nav ul li a {
     text-decoration-thickness: 7px;
 }
 
-footer {
-    margin-top: 10px;
-    text-align: center;
-    width: 100%;
-    bottom: 0;
-}
-
- footer h2 {
-    font-size: 20px;
- }
-
  .head-image {
     height: 300px;
     width: 100%;
@@ -93,13 +84,7 @@ footer {
     background-position: center;
 }
 
-.main-content img {
-    max-width: 100%;
-    max-height: auto;
-    border-radius: 10px;
-    border: 5px var(--chestnut) solid;
-}
-
+/* Main Content */
 .main-content-box {
     flex: 1;
     margin: auto;
@@ -111,6 +96,14 @@ footer {
     box-shadow: 5px 5px 5px var(--raisinBlack);
 }
 
+.main-content img {
+    max-width: 100%;
+    max-height: auto;
+    border-radius: 10px;
+    border: 5px var(--chestnut) solid;
+}
+
+/* About Me */
 .about-container {
     display: flex;
 }
@@ -125,6 +118,7 @@ footer {
     flex: 1 1 auto;
 }
 
+/* Work */
 .portfolio-grid {
     display: grid;
     grid-template-columns: 1.5fr 1fr 1fr;
@@ -142,13 +136,14 @@ footer {
     position: absolute;
     bottom: 20px;
     right: 20px;
-    background-color: var(--chestnut);
+    background-color: rgba(135, 79, 62, 0.9);
     color: var(--raisinBlack);
     font-weight: bold;
     padding: 10px;
     border-radius: 15px;
 }
 
+/* Contact */
 .contact img {
     display: inline-flex;
     border: none;
@@ -157,6 +152,19 @@ footer {
     height: auto;
 }
 
+/* Footer */
+footer {
+    margin-top: 10px;
+    text-align: center;
+    width: 100%;
+    bottom: 0;
+}
+
+ footer h2 {
+    font-size: 20px;
+ }
+
+ /* Smaller screens */
 @media screen and (max-width: 992px) {
   .main-content img {
       max-width: 95%;
