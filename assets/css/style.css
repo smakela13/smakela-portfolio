@@ -93,22 +93,22 @@ footer {
     background-position: center;
 }
 
-.main-content article {
-    width: 80%;
-    margin: auto;
-    margin-bottom: 7px;
-    padding: 15px;
-    background-color: var(--champagne);
-    box-shadow: 5px 5px 5px var(--raisinBlack);
-    border-radius: 10px;
-    flex: 1;   
-}
-
 .main-content img {
     max-width: 100%;
     max-height: auto;
     border-radius: 10px;
     border: 5px var(--chestnut) solid;
+}
+
+.main-content-box {
+    flex: 1;
+    margin: auto;
+    background-color: var(--champagne);
+    margin-bottom: 7px;
+    padding: 20px;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px var(--raisinBlack);
 }
 
 .about-container {
@@ -147,15 +147,6 @@ footer {
     font-weight: bold;
     padding: 10px;
     border-radius: 15px;
-}
-
-.contact {
-    flex: 1;
-    margin-bottom: 5px;
-    padding: 20px;
-    width: 80%;
-    border-radius: 10px;
-    box-shadow: 5px 5px 5px var(--raisinBlack);
 }
 
 .contact img {
