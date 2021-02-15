@@ -10,13 +10,13 @@
 
 ## Description
 
-need description
+Welcome to my portfolio's repository! I'm glad you're here. This website showcases the information about me, the projects I've worked on, and how to contact me through email or LinkedIn. It is currently written in HTML and CSS, but I plan to add more to it as my knowledge in web development increases.
 
 ## Usage
 
 ![Sarah Makela's Portfolio](./assets/images/smakela-portfolio-screenshot.png)
 
-Navigate to [Sarah Makela's Portfolio](https://smakela13.github.io/smakela-portfolio/index.html) and view the web page.
+Navigate to [Sarah Makela's Portfolio](https://smakela13.github.io/smakela-portfolio/index.html) to view the web page.
 
 ## Credits
 
@@ -25,6 +25,8 @@ Created by [Sarah Makela](github.com/smakela13).
 ## License
 
 This website has No License, which means it is under exclusive copyright. No one can copy, distribute, or modify this website without permission.
+
+---
 
 ## Instructions
 ### 02 Advanced CSS: Portfolio
