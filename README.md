@@ -1,6 +1,35 @@
-# 02 Advanced CSS: Portfolio
+# Sarah Makela's Portfolio
 
-## Your Task
+## Table of Contents
+
+* [Description](#description)
+* [Usage](#usage)
+* [Credits](#credits)
+* [License](#license)
+* [Instructions](#instructions)
+
+## Description
+
+need description
+
+## Usage
+
+![Sarah Makela's Portfolio](./assets/images/smakela-portfolio-screenshot.png)
+
+Navigate to [Sarah Makela's Portfolio](https://smakela13.github.io/smakela-portfolio/index.html) and view the web page.
+
+## Credits
+
+Created by [Sarah Makela](github.com/smakela13).
+
+## License
+
+This website has No License, which means it is under exclusive copyright. No one can copy, distribute, or modify this website without permission.
+
+## Instructions
+### 02 Advanced CSS: Portfolio
+
+### Your Task
 
 Welcome to this week's homework! This is an even-numbered week, so you won't be given any starter code. Instead, you'll create a web application from scratch! This week, you'll build a portfolio page, which you can add to as the course progresses. 
 
@@ -12,8 +41,7 @@ With these points in mind, in this homework you’ll set yourself up for future 
 
 Let’s take a look at what a user story written from the perspective of a hiring manager might look like. As you might remember from your first homework, we follow the AS AN / I WANT / SO THAT format. 
 
-
-## User Story
+### User Story
 
 ```
 AS AN employer
@@ -21,8 +49,7 @@ I WANT to view a potential employee's deployed portfolio of work samples
 SO THAT I can review samples of their work and assess whether they're a good candidate for an open position
 ```
 
-
-## Acceptance Criteria
+### Acceptance Criteria
 
 Here are the critical requirements necessary to develop a portfolio that satisfies a typical hiring manager’s needs:
 
@@ -41,56 +68,3 @@ THEN I am taken to that deployed application
 WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
 ```
-
-
-## Mock-Up
-
-The following animation shows the web application's appearance and functionality:
-
-![portfolio demo](./Assets/02-advanced-css-homework-demo.gif)
-
-
-## Grading Requirements
-
-This homework is graded based on the following criteria: 
-
-### Technical Acceptance Criteria: 40%
-
-* Satisfies all of the above acceptance criteria.
-
-### Deployment: 32%
-
-* Application deployed at live URL.
-
-* Application loads with no errors.
-
-* Application GitHub URL submitted.
-
-* GitHub repository contains application code.
-
-### Application Quality: 15%
-
-* Application resembles the mock-up functionality provided in the homework instructions.
-
-### Repository Quality: 13%
-
-* Repository has a unique name.
-
-* Repository follows best practices for file structure and naming conventions.
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages.
-
-* Repository contains quality readme with description, screenshot, link to deployed application.
-
-## Review
-
-You are required to submit BOTH of the following for review:
-
-* The URL of the deployed application.
-
-* The URL of the GitHub repository that contains your code. Give the repository a unique name and include a README file that describes the project.
-
-- - -
-© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
