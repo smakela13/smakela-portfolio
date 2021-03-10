@@ -9,7 +9,7 @@
 
 ## Description
 
-Welcome to my portfolio's repository! I'm glad you're here. This website showcases the information about me, the projects I've worked on, and how to contact me through email or LinkedIn. It is currently written in HTML and CSS, but I plan to add more to it as my knowledge in web development grows.
+Welcome to my portfolio's repository! I'm glad you're here. This website showcases the information about me, the projects I've worked on, and how to contact me through email or LinkedIn. It is currently written in HTML and CSS with Bootstrap, but I plan to add more to it as my knowledge in web development grows.
 
 ## Usage
 
