@@ -3,11 +3,13 @@
 
 <head>
     <meta charset="UTF-8" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Merienda" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto" rel="stylesheet">
-    <title>Sarah Makela's Porfolio</title>
+    <title>Sarah Mäkelä's Portfolio</title>
 </head>
 
 <!-- Header with navigation -->
@@ -36,7 +38,7 @@
                 <!-- About Me -->
                 <h2 id="about-me">About Me</h2>
                 <div class="about-container">
-                    <img class="about-img" src="./assets/images/Sarah-Makela.jpg" alt="Sarah Makela" />
+                    <img class="about-img" src="./assets/images/Sarah-Makela.jpg" alt="Sarah Mäkelä" />
                     <div class="about-text">
                         <p> 
                             Welcome to my portfolio! I'm a Full Stack Web Developer with a publishing industry background, and I'd really like to help with your project.
@@ -48,7 +50,7 @@
                             In terms of programming, I am comfortable with WordPress, HTML/CSS, and VS Code, and I am familiar with JavaScript, PHP, and MySQL. My skills are growing every day.
                         </p>
                         <p>
-                            Take a look below to see what I've done in my porfolio. Feel free to contact me via email or through LinkedIn.
+                            Take a look below to see what I've done in my portfolio. Feel free to contact me via email or through LinkedIn.
                         </p>
                     </div>
                 </div>
@@ -57,42 +59,47 @@
             <!-- My Work portfolio -->
             <section class="main-content-box">
                 <h2 id="work">Work</h2>
-                <div class="portfolio-grid">
+                    <div class="card-deck">
                     <!-- Horiseon project -->
-                    <section>
-                        <div class="container">
-                            <a href="https://smakela13.github.io/horiseon-website/Develop/index.html">
-                                <img src="./assets/images/01-html-css-git-homework-demo.png" alt="Horiseon Social Solution Services">
-                                <div class="text-block">
-                                    <h3>Horiseon Social Solution Services</h3>
-                                    <p>HTML5/CSS</p>
-                                </div>
-                            </a>
-                        </div>
+                    <section class="card">
+                        <a href="https://smakela13.github.io/horiseon-website/Develop/index.html">
+                        <img class="card-img-top" src="./assets/images/01-html-css-git-homework-demo.png" alt="Horiseon Social Solution Services">
+                            <div class="card-body">
+                                <h3 class="card-title">Horiseon Social Solution Services</h3>
+                                <p class="card-text">HTML5/CSS</p>
+                            </div>
+                        </a>
                     </section>
                     <!-- JavaScript Password Generator project -->
-                    <section>
-                        <div class="container">
-                            <a href="https://smakela13.github.io/js-password-generator/Develop/index.html">
-                                <img src="./assets/images/smakela-password-generator.png" alt="JavaScript Password Generator">
-                                <div class="text-block">
-                                    <h3>JavaScript Password Generator</h3>
-                                    <p>JavaScript/HTML5/CSS</p>
-                                </div>
-                            </a>
-                        </div>
+                    <section class="card">
+                        <a href="https://smakela13.github.io/js-password-generator/Develop/index.html">
+                        <img class="card-img-top" src="./assets/images/smakela-password-generator.png" alt="JavaScript Password Generator">
+                            <div class="card-body">
+                                <h3 class="card-title">JavaScript Password Generator</h3>
+                                <p class="card-text">JavaScript, HTML5, CSS</p>
+                            </div>
+                        </a>
                     </section>
-                    <!-- Coming Soon project -->
-                    <section>
-                        <div class="container">
+                    <!-- JavaScript Quiz project -->
+                    <section class="card">
                             <a href="https://smakela13.github.io/javascript-quiz/">
-                                <img src="./assets/images/javascript-quiz.png" alt="JavaScript Quiz">
-                                <div class="text-block">
-                                    <h3>JavaScript Quiz</h3>
-                                    <p>JavaScript/HTML5/CSS</p>
-                                </div>
-                            </a>
-                        </div>
+                            <img class="card-img-top" src="./assets/images/javascript-quiz.png" alt="JavaScript Quiz">
+                            <div class="card-body">
+                                <h3 class="card-title">JavaScript Quiz</h3>
+                                <p class="card-text">JavaScript, HTML5, CSS, GoogleFonts</p>
+                            </div>
+                        </a>
+                    </section>
+                    <!-- JavaScript Quiz project -->
+                    <section class="card">
+                        <a href="https://smakela13.github.io/work-day-calendar/">
+                            <img class="card-img-top" src="./assets/images/work-day-scheduler.png" alt="Work Day Calendar">
+                            <div class="card-body">
+                                <h3 class="card-title">Work Day Calendar</h3>
+                                <p class="card-text">jQuery, Bootstrap, MomentJS, JavaScript,<br />
+                                    HTML5, CSS, GoogleFonts, Font Awesome</p>
+                            </div>
+                        </a>
                     </section>
                 </div>
             </section>
