@@ -13,7 +13,7 @@ Welcome to my portfolio's repository! I'm glad you're here. This website showcas
 
 ## Usage
 
-![Sarah Makela's Portfolio](./assets/images/smakela-portfolio-screenshot.png)
+![Sarah Makela's Portfolio](./assets/images/smakela-portfolio-screenshot-updated.png)
 
 Navigate to [Sarah Makela's Portfolio](https://smakela13.github.io/smakela-portfolio/index.html) and view the web page.
 
