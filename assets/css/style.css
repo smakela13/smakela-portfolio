@@ -43,6 +43,15 @@ p {
     line-height: 150%;
 }
 
+a {
+    color: var(--raisinBlack);
+    text-decoration: underline;
+}
+
+a:hover {
+    color: var(--champagne);
+}
+
 /* Header, header nav, header image */
 header {
     padding: 20px;
