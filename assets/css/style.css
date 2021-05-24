@@ -85,7 +85,7 @@ header nav ul li a {
     text-decoration-thickness: 7px;
 }
 
- .head-image {
+.head-image {
     height: 300px;
     width: 100%;
     background-image: url("../images/feathers-header.jpg");
@@ -96,6 +96,7 @@ header nav ul li a {
 /* Main Content */
 .main-content-box {
     flex: 1;
+    float: left;
     margin: auto;
     background-color: var(--champagne);
     margin-bottom: 7px;
@@ -120,7 +121,7 @@ header nav ul li a {
 .about-img {
     object-fit: contain;
     align-self: flex-start;
-    margin: 0 15px 5px 0px;
+    margin: auto;
 }
 
 .about-text {
@@ -130,6 +131,10 @@ header nav ul li a {
 /* Work */
 .card {
     background-color: var(--middleGrey);
+    padding: 10px;
+}
+
+.card-deck {
     padding: 10px;
 }
 
@@ -146,6 +151,18 @@ header nav ul li a {
 }
 
 /* Contact */
+.main-content-contact {
+    flex: 1;
+    float: right;
+    margin: auto;
+    background-color: var(--champagne);
+    margin-bottom: 7px;
+    padding: 20px;
+    width: 19.2%;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px var(--raisinBlack);
+}
+
 .contact img {
     display: inline-flex;
     border: none;
