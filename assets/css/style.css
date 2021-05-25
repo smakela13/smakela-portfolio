@@ -96,7 +96,6 @@ header nav ul li a {
 /* Main Content */
 .main-content-box {
     flex: 1;
-    float: left;
     margin: auto;
     background-color: var(--champagne);
     margin-bottom: 7px;
@@ -121,7 +120,7 @@ header nav ul li a {
 .about-img {
     object-fit: contain;
     align-self: flex-start;
-    margin: auto;
+    margin: 0 15px 5px 0px;
 }
 
 .about-text {
@@ -151,18 +150,6 @@ header nav ul li a {
 }
 
 /* Contact */
-.main-content-contact {
-    flex: 1;
-    float: right;
-    margin: auto;
-    background-color: var(--champagne);
-    margin-bottom: 7px;
-    padding: 20px;
-    width: 19.2%;
-    border-radius: 10px;
-    box-shadow: 5px 5px 5px var(--raisinBlack);
-}
-
 .contact img {
     display: inline-flex;
     border: none;
@@ -187,5 +174,8 @@ footer {
 @media screen and (max-width: 992px) {
   .main-content img {
       max-width: 95%;
+  }
+  .main-content-contact {
+    float: left;
   }
 }
