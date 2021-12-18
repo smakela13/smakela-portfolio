@@ -1,4 +1,4 @@
-# Sarah Makela's Portfolio
+# Soma Makela's Portfolio
 
 ## Table of Contents
 
@@ -13,13 +13,13 @@ Welcome to my portfolio's repository! I'm glad you're here. This website showcas
 
 ## Usage
 
-![Sarah Makela's Portfolio](./assets/images/smakela-portfolio-screenshot.png)
+![Soma Makela's Portfolio](./assets/images/smakela-portfolio-screenshot-update-2.png)
 
-Navigate to [Sarah Makela's Portfolio](https://smakela13.github.io/smakela-portfolio/index.html) and view the web page.
+Navigate to [Soma Makela's Portfolio](https://smakela13.github.io/smakela-portfolio/index.html) and view the web page.
 
 ## Credits
 
-Created by [Sarah Makela](https://github.com/smakela13).
+Created by [Soma Makela](https://github.com/smakela13).
 
 ## License
 

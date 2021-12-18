@@ -43,6 +43,15 @@ p {
     line-height: 150%;
 }
 
+a {
+    color: var(--raisinBlack);
+    text-decoration: underline;
+}
+
+a:hover {
+    color: var(--champagne);
+}
+
 /* Header, header nav, header image */
 header {
     padding: 20px;
@@ -76,7 +85,7 @@ header nav ul li a {
     text-decoration-thickness: 7px;
 }
 
- .head-image {
+.head-image {
     height: 300px;
     width: 100%;
     background-image: url("../images/feathers-header.jpg");
@@ -124,6 +133,10 @@ header nav ul li a {
     padding: 10px;
 }
 
+.card-deck {
+    padding: 10px;
+}
+
 .card-title {
     text-align: center;
     color: var(--raisinBlack);
@@ -161,5 +174,8 @@ footer {
 @media screen and (max-width: 992px) {
   .main-content img {
       max-width: 95%;
+  }
+  .main-content-contact {
+    float: left;
   }
 }
